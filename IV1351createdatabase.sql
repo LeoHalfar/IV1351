@@ -1,9 +1,3 @@
--- Database: Soundgood
-
--- DROP DATABASE IF EXISTS "Soundgood";
-
-
-	
 	CREATE TABLE student (
 	student_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY NOT NULL,
 	contact_person_phonenumber VARCHAR(500),
